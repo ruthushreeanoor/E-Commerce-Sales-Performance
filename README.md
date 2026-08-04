@@ -8,53 +8,61 @@
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project presents a comprehensive analysis of an **E-Commerce Sales Dataset** using Python. The primary objective is to explore sales data, perform descriptive statistical analysis, and derive meaningful business insights that can support informed decision-making.
+This project presents an exploratory analysis of an **E-Commerce Sales Dataset** using Python. It demonstrates essential data analysis techniques to extract meaningful insights from sales data, helping businesses understand product performance and make data-driven decisions.
 
-The notebook demonstrates essential data analysis techniques such as data exploration, statistical summarization, filtering, sorting, and extracting valuable information from real-world business data.
+Using **Pandas** and **NumPy**, the notebook explores the dataset, generates descriptive statistics, performs filtering and sorting operations, and derives valuable business insights from sales records.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Objectives
 
-- Explore the E-Commerce sales dataset.
+- Explore an E-Commerce sales dataset.
 - Understand the structure and characteristics of the data.
 - Perform descriptive statistical analysis.
-- Analyze sales and product information.
-- Identify trends and useful business insights.
-- Demonstrate data analysis using Python.
+- Analyze product pricing and customer ratings.
+- Demonstrate filtering and sorting techniques using Pandas.
+- Extract meaningful business insights from sales data.
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
-The project uses an E-Commerce sales dataset containing information related to products, pricing, customer ratings, and sales records.
+The project uses the dataset:
+
+```
+commerce_sales_dataset.csv
+```
+
+The dataset contains information about products sold through an E-Commerce platform.
 
 ### Dataset Features
 
-- Product Category
 - Product Name
+- Product Category
 - Price
 - Customer Rating
 - Quantity Sold
 - Sales Information
 
+The dataset is included in this repository and is used for exploratory data analysis and statistical evaluation.
+
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - ✔️ Data Loading
 - ✔️ Dataset Exploration
 - ✔️ Descriptive Statistics
 - ✔️ Data Filtering
 - ✔️ Data Sorting
-- ✔️ Business-Oriented Data Analysis
-- ✔️ Sales Performance Evaluation
+- ✔️ Sales Data Analysis
+- ✔️ Business-Oriented Insights
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -63,12 +71,13 @@ The project uses an E-Commerce sales dataset containing information related to p
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```
 E-Commerce-Sales-Performance/
 │
 ├── Case_Study_E_commerce.ipynb
+├── ecommerce_sales_dataset.csv
 ├── README.md
 │
 └── images/
@@ -84,7 +93,7 @@ E-Commerce-Sales-Performance/
 
 ## Dataset Preview
 
-The following image shows a preview of the E-Commerce dataset used for analysis.
+The following image displays a preview of the E-Commerce dataset used in this project.
 
 ![Dataset Preview](images/data.png)
 
@@ -92,7 +101,7 @@ The following image shows a preview of the E-Commerce dataset used for analysis.
 
 ## Dataset Statistics
 
-Summary statistics provide an overview of the numerical attributes in the dataset, including measures such as mean, standard deviation, minimum, maximum, and quartiles.
+The descriptive statistics summarize the numerical features of the dataset, including count, mean, standard deviation, minimum, maximum, and quartile values.
 
 ![Dataset Statistics](images/dataset_statistics.png)
 
@@ -100,7 +109,7 @@ Summary statistics provide an overview of the numerical attributes in the datase
 
 ## Sales Analysis
 
-The notebook performs sorting, filtering, and analysis of sales data to identify meaningful business information and product insights.
+The notebook performs sorting and filtering operations to analyze sales records and identify useful business information.
 
 ![Sales Analysis](images/sales_analysis.png)
 
@@ -108,83 +117,93 @@ The notebook performs sorting, filtering, and analysis of sales data to identify
 
 # ⚙️ Project Workflow
 
-1. Import required Python libraries.
-2. Load the E-Commerce dataset.
+1. Import the required Python libraries.
+2. Load the E-Commerce sales dataset.
 3. Explore the dataset structure.
-4. Analyze dataset characteristics.
-5. Generate descriptive statistics.
-6. Perform sorting and filtering operations.
-7. Interpret the analysis results.
+4. Generate descriptive statistics.
+5. Perform sorting and filtering operations.
+6. Analyze sales-related information.
+7. Derive business insights from the dataset.
 
 ---
 
 # 💡 Key Insights
 
-- Explored the overall structure of the E-Commerce dataset.
-- Generated descriptive statistics for numerical features.
-- Performed sorting and filtering to analyze product and sales information.
-- Demonstrated practical data analysis techniques using Python and Pandas.
-- Extracted useful insights that can support business decision-making.
+- Explored the structure of an E-Commerce sales dataset.
+- Generated descriptive statistics for numerical attributes.
+- Performed filtering and sorting using Pandas.
+- Analyzed product pricing and customer-related information.
+- Demonstrated practical exploratory data analysis techniques.
+- Derived insights that can support business decision-making.
 
 ---
 
 # ▶️ How to Run
 
-### Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/ruthushreeanoor/E-Commerce-Sales-Performance.git
 ```
 
-### Navigate to the project directory
+### 2. Navigate to the project directory
 
 ```bash
 cd E-Commerce-Sales-Performance
 ```
 
-### Install the required libraries
+### 3. Install the required libraries
 
 ```bash
 pip install pandas numpy jupyter
 ```
 
-### Launch Jupyter Notebook
+### 4. Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-### Open
+### 5. Ensure the dataset file
+
+```
+commerce_sales_dataset.csv
+```
+
+is present in the project root directory.
+
+### 6. Open
 
 ```
 Case_Study_E_commerce.ipynb
 ```
 
-Run all the cells to reproduce the analysis.
+Run all the notebook cells to reproduce the analysis.
 
 ---
 
 # 📈 Learning Outcomes
 
-Through this project, the following concepts are demonstrated:
+This project demonstrates:
 
 - Data Exploration
-- Data Cleaning and Inspection
+- Data Inspection
 - Descriptive Statistics
 - Data Filtering
 - Data Sorting
 - Exploratory Data Analysis (EDA)
 - Business Data Interpretation
+- Data Analysis using Pandas
 
 ---
 
 # 📚 Future Enhancements
 
-- Interactive visualizations using Matplotlib or Seaborn
-- Dashboard development using Power BI or Tableau
-- Sales forecasting using Machine Learning
-- Customer segmentation analysis
-- Product recommendation system
+- Create interactive visualizations using Matplotlib and Seaborn.
+- Build dashboards using Power BI or Tableau.
+- Perform customer segmentation analysis.
+- Develop sales forecasting models.
+- Implement recommendation systems using Machine Learning.
 
 ---
 
@@ -199,3 +218,5 @@ GitHub: https://github.com/ruthushreeanoor
 ## ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
+
+Feedback and contributions are always welcome.
