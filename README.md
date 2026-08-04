@@ -4,7 +4,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 ---
 
